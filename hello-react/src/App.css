@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.advantage {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:flex-start;
+  text-align:left;
+  width:15%;
+}
+.advantage h3, .advantage p {
+  margin-top:.35rem;
+  margin-bottom:.25rem;
+  margin-left:1.2rem;
+}
